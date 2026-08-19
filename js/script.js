@@ -96,8 +96,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // NOTE: No backend/email service is connected yet.
-    // [ADD YOUR INFORMATION]: wire this up to a form service (e.g. Formspree,
-    // EmailJS) or your own backend endpoint to actually receive messages.
+    // TODO: wire this up to a form service (e.g. Formspree, EmailJS) or a
+    // backend endpoint to actually receive messages.
     formStatus.textContent = "Thanks for reaching out! (Form isn't connected to a backend yet.)";
     formStatus.className = 'form-status success';
     contactForm.reset();

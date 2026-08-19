@@ -3,8 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aamina Shaikh — Portfolio</title>
-  <meta name="description" content="Aamina Shaikh — [ADD YOUR INFORMATION: professional headline]" />
+  <title>Aamina Shaikh | BCA Graduate &amp; Aspiring IT Professional</title>
+  <meta name="description" content="Portfolio of Aamina Shaikh, a BCA graduate from Mumbai with hands-on experience in HTML, CSS, JavaScript and AI-assisted development. Open to entry-level roles in web development, software development, frontend, full stack, Python, SQL/database and other technology positions." />
+  <meta name="author" content="Aamina Shaikh" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="canonical" href="https://aaminashaikh.github.io/Aamina-portfolio/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Aamina Shaikh | BCA Graduate & Aspiring IT Professional" />
+  <meta property="og:description" content="BCA graduate skilled in HTML, CSS, JavaScript and AI-assisted development, open to entry-level opportunities in web development, software development and related IT roles." />
+  <meta property="og:url" content="https://aaminashaikh.github.io/Aamina-portfolio/" />
+  <meta property="og:image" content="https://aaminashaikh.github.io/Aamina-portfolio/assets/images/main-logo.png" />
+  <meta property="og:site_name" content="Aamina Shaikh Portfolio" />
 
   <!-- Google Fonts: Manrope -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,7 +32,36 @@
   <!-- Custom Styles -->
   <link rel="stylesheet" href="css/style.css" />
 
-  <link rel="icon" type="image/png" href="assets/images/Main Logo.png" />
+  <link rel="icon" type="image/png" href="assets/images/main-logo.png" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aamina Shaikh",
+    "url": "https://aaminashaikh.github.io/Aamina-portfolio/",
+    "image": "https://aaminashaikh.github.io/Aamina-portfolio/assets/images/main-logo.png",
+    "jobTitle": "Aspiring IT Professional",
+    "description": "BCA graduate with hands-on experience in HTML, CSS, JavaScript and AI-assisted development, open to entry-level opportunities in web development, software development and related IT roles.",
+    "email": "mailto:amnacoder@gmail.com",
+    "telephone": "+91-9987933915",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mumbai",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "SNDT Women's University"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/aamina-shaikh-244534305",
+      "https://github.com/aaminashaikh"
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -28,7 +69,7 @@
   <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="mainNav">
     <div class="container">
       <a class="navbar-brand" href="#home">
-        <img src="assets/images/Main Logo.png" alt="Aamina Shaikh Logo" class="brand-logo" />
+        <img src="assets/images/main-logo.png" alt="Aamina Shaikh logo" class="brand-logo" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
         aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,6 +81,7 @@
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           <li class="nav-item ms-lg-2">
             <a class="btn btn-nav-cta" href="#contact">Let's Talk</a>
@@ -57,10 +99,13 @@
         <div class="col-lg-7" data-reveal>
           <p class="eyebrow">Hello, I'm</p>
           <h1 class="hero-name">Aamina Shaikh</h1>
-          <h2 class="hero-role">[Aspiring Software & Web Developer]</h2>
+          <h2 class="hero-role">BCA Graduate | Aspiring IT Professional</h2>
           <p class="hero-desc">
-            [I'm a BCA student passionate about software and web development. I enjoy learning new technologies, building practical projects, 
-            and using AI-assisted tools like Claude to turn ideas into functional websites and applications.]
+            I'm a BCA graduate passionate about software and web development. I enjoy learning new
+            technologies, building practical projects, and using AI-assisted tools like Claude to turn
+            ideas into functional websites and applications. I'm currently open to entry-level
+            opportunities in Web Development, Software Development, Frontend, Full Stack, 
+            Data-related and other technology roles.
           </p>
           <div class="d-flex flex-wrap gap-3 mt-4">
             <a href="#projects" class="btn btn-primary-cta">
@@ -69,14 +114,14 @@
             <a href="#contact" class="btn btn-outline-cta">
               Get In Touch
             </a>
-            <a href="Aamina_Shaikh_Resume.pdf" class="btn btn-ghost-cta" download>
+            <a href="Aamina_Shaikh_Resume.pdf" class="btn btn-ghost-cta" download="Aamina_Shaikh_Resume.pdf" aria-label="Download Aamina Shaikh's resume (PDF)">
               <i class="bi bi-download"></i> Resume
             </a>
           </div>
         </div>
         <div class="col-lg-5 text-center mt-5 mt-lg-0" data-reveal data-reveal-delay="150">
           <div class="hero-visual">
-            <img src="assets/images/Main Logo.png" alt="Aamina Shaikh" class="hero-logo-img" />
+            <img src="assets/images/main-logo.png" alt="Aamina Shaikh — AA monogram logo" class="hero-logo-img" />
           </div>
         </div>
       </div>
@@ -100,19 +145,23 @@
         <div class="col-lg-5" data-reveal>
           <div class="about-image-wrap">
             <div class="about-image-frame">
-              <img src="assets/images/Main Logo.png" alt="Aamina Shaikh" class="about-img" />
+              <img src="assets/images/main-logo.png" alt="Aamina Shaikh — AA monogram logo" class="about-img" />
             </div>
           </div>
         </div>
         <div class="col-lg-7" data-reveal data-reveal-delay="150">
-          <h3 class="about-heading">[Building, Learning & Growing Through Technology]</h3>
+          <h3 class="about-heading">Building, Learning &amp; Growing Through Technology</h3>
           <p class="about-text">
-            [I am a BCA student with a strong interest in software and web development. I enjoy learning new technologies and turning ideas into practical projects. 
-            I have experience with HTML, CSS, JavaScript, Bootstrap,  and I use AI-assisted development tools such as Claude to support coding, and learning.]
+            I am a BCA graduate with a strong interest in software and web development. I enjoy
+            learning new technologies and turning ideas into practical projects. I have experience
+            with HTML, CSS, JavaScript and I use AI-assisted development tools such as
+            Claude to support coding and learning.
           </p>
           <p class="about-text">
-            [I am currently focused on developing my technical skills and building projects that help me understand real-world software development. 
-            I am open to learning new technologies and exploring opportunities where I can contribute, learn, and grow as a technology professional.]
+            I am currently focused on developing my technical skills and building projects that help
+            me understand real-world software development. I'm open to entry-level opportunities in
+            Web Development, Software Development, Frontend, Full Stack, Data-related and other technology roles 
+            where I can contribute, learn and grow.
           </p>
           <div class="row g-3 mt-3">
             <div class="col-sm-6">
@@ -124,19 +173,19 @@
             <div class="col-sm-6">
               <div class="about-info-item">
                 <span class="about-info-label">Role</span>
-                <span class="about-info-value">[Aspiring Software & Web Developer]</span>
+                <span class="about-info-value">Aspiring IT Professional</span>
               </div>
             </div>
             <div class="col-sm-6">
               <div class="about-info-item">
                 <span class="about-info-label">Location</span>
-                <span class="about-info-value">[Mumbai, Maharashtra]</span>
+                <span class="about-info-value">Mumbai, Maharashtra</span>
               </div>
             </div>
             <div class="col-sm-6">
               <div class="about-info-item">
                 <span class="about-info-label">Email</span>
-                <span class="about-info-value">[amnacoder@gmail.com]</span>
+                <span class="about-info-value">amnacoder@gmail.com</span>
               </div>
             </div>
           </div>
@@ -163,36 +212,32 @@
         <div class="col-md-4" data-reveal>
           <div class="skill-card">
             <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
-            <h3 class="skill-cat-title">Frontend</h3>
+            <h3 class="skill-cat-title">Web Development</h3>
             <div class="skill-chip-group">
-              <span class="skill-chip">[ADD SKILL]</span>
-              <span class="skill-chip">[ADD SKILL]</span>
-              <span class="skill-chip">[ADD SKILL]</span>
-              <span class="skill-chip">[ADD SKILL]</span>
+              <span class="skill-chip">HTML5</span>
+              <span class="skill-chip">CSS3</span>
+              <span class="skill-chip">JavaScript</span>
+            
             </div>
           </div>
         </div>
         <div class="col-md-4" data-reveal data-reveal-delay="100">
           <div class="skill-card">
-            <div class="skill-icon"><i class="bi bi-server"></i></div>
-            <h3 class="skill-cat-title">Backend</h3>
+            <div class="skill-icon"><i class="bi bi-stars"></i></div>
+            <h3 class="skill-cat-title">AI-Assisted Development</h3>
             <div class="skill-chip-group">
-              <span class="skill-chip">[ADD SKILL]</span>
-              <span class="skill-chip">[ADD SKILL]</span>
-              <span class="skill-chip">[ADD SKILL]</span>
-              <span class="skill-chip">[ADD SKILL]</span>
+              <span class="skill-chip">Claude AI</span>
+              <span class="skill-chip">Generative AI Tools</span>
+              <span class="skill-chip">AI-Assisted Coding</span>
             </div>
           </div>
         </div>
         <div class="col-md-4" data-reveal data-reveal-delay="200">
           <div class="skill-card">
             <div class="skill-icon"><i class="bi bi-tools"></i></div>
-            <h3 class="skill-cat-title">Tools &amp; Others</h3>
+            <h3 class="skill-cat-title">Tools</h3>
             <div class="skill-chip-group">
-              <span class="skill-chip">[ADD SKILL]</span>
-              <span class="skill-chip">[ADD SKILL]</span>
-              <span class="skill-chip">[ADD SKILL]</span>
-              <span class="skill-chip">[ADD SKILL]</span>
+              <span class="skill-chip">VS Code</span>
             </div>
           </div>
         </div>
@@ -211,71 +256,86 @@
         </div>
       </div>
 
+      <div class="row g-4 mt-4 justify-content-center">
+        <!-- Project 1: Personal Portfolio Website -->
+        <div class="col-md-6 col-lg-6" data-reveal>
+          <div class="project-card">
+            <div class="project-thumb">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-desc">A responsive personal portfolio site built to showcase my profile, skills, projects, education and contact details. Developed with AI-assisted development to speed up structure and styling, then manually tested and refined to match the intended design.</p>
+              <div class="project-tags">
+                <span class="tag-chip">HTML</span>
+                <span class="tag-chip">CSS</span>
+                <span class="tag-chip">JavaScript</span>
+                <span class="tag-chip">Bootstrap</span>
+              </div>
+              <div class="project-links">
+                <a href="https://aaminashaikh.github.io/Aamina-portfolio/" class="project-link" target="_blank" rel="noopener">Live Demo <i class="bi bi-box-arrow-up-right"></i></a>
+                <a href="https://github.com/aaminashaikh/Aamina-portfolio" class="project-link" target="_blank" rel="noopener">Source Code <i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2: To-Do List Web App -->
+        <div class="col-md-6 col-lg-6" data-reveal data-reveal-delay="100">
+          <div class="project-card">
+            <div class="project-thumb">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">To-Do List Web App</h3>
+              <p class="project-desc">A responsive to-do list application for managing daily tasks, with the ability to add, complete and delete tasks. Tasks are saved to the browser's local storage so they persist after a page refresh, using JavaScript DOM manipulation and event handling for interactivity.</p>
+              <div class="project-tags">
+                <span class="tag-chip">HTML</span>
+                <span class="tag-chip">CSS</span>
+                <span class="tag-chip">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://aaminashaikh.github.io/todo-list/" class="project-link" target="_blank" rel="noopener">Live Demo <i class="bi bi-box-arrow-up-right"></i></a>
+                <a href="https://github.com/aaminashaikh/todo-list" class="project-link" target="_blank" rel="noopener">Source Code <i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Education ===== -->
+  <section id="education" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center" data-reveal>
+          <p class="section-eyebrow">My Academic Background</p>
+          <h2 class="section-title">Education</h2>
+          <div class="title-underline mx-auto"></div>
+        </div>
+      </div>
+
       <div class="row g-4 mt-4">
-        <!-- Project Card 1 -->
-        <div class="col-md-6 col-lg-4" data-reveal>
-          <div class="project-card">
-            <div class="project-thumb">
-              <i class="bi bi-image"></i>
-              <span class="project-thumb-label">[ADD PROJECT IMAGE]</span>
-            </div>
-            <div class="project-body">
-              <h3 class="project-title">[ADD YOUR INFORMATION: Project Name]</h3>
-              <p class="project-desc">[ADD YOUR INFORMATION: a short description of the project, what it does, and your role in it.]</p>
-              <div class="project-tags">
-                <span class="tag-chip">[Tech]</span>
-                <span class="tag-chip">[Tech]</span>
-                <span class="tag-chip">[Tech]</span>
-              </div>
-              <div class="project-links">
-                <a href="#" class="project-link">Live Demo <i class="bi bi-box-arrow-up-right"></i></a>
-                <a href="#" class="project-link">Source Code <i class="bi bi-github"></i></a>
-              </div>
-            </div>
+        <div class="col-md-4" data-reveal>
+          <div class="skill-card">
+            <div class="skill-icon"><i class="bi bi-mortarboard"></i></div>
+            <h3 class="skill-cat-title">Bachelor of Computer Applications</h3>
+            <p class="edu-detail">Smt. P. N. Doshi Women's College, Ghatkopar, Mumbai<br />SNDT Women's University, Mumbai</p>
+            <p class="edu-meta">2023 – 2026 &middot; 67.00%</p>
           </div>
         </div>
-        <!-- Project Card 2 -->
-        <div class="col-md-6 col-lg-4" data-reveal data-reveal-delay="100">
-          <div class="project-card">
-            <div class="project-thumb">
-              <i class="bi bi-image"></i>
-              <span class="project-thumb-label">[ADD PROJECT IMAGE]</span>
-            </div>
-            <div class="project-body">
-              <h3 class="project-title">[ADD YOUR INFORMATION: Project Name]</h3>
-              <p class="project-desc">[ADD YOUR INFORMATION: a short description of the project, what it does, and your role in it.]</p>
-              <div class="project-tags">
-                <span class="tag-chip">[Tech]</span>
-                <span class="tag-chip">[Tech]</span>
-                <span class="tag-chip">[Tech]</span>
-              </div>
-              <div class="project-links">
-                <a href="#" class="project-link">Live Demo <i class="bi bi-box-arrow-up-right"></i></a>
-                <a href="#" class="project-link">Source Code <i class="bi bi-github"></i></a>
-              </div>
-            </div>
+        <div class="col-md-4" data-reveal data-reveal-delay="100">
+          <div class="skill-card">
+            <div class="skill-icon"><i class="bi bi-mortarboard"></i></div>
+            <h3 class="skill-cat-title">Higher Secondary Certificate</h3>
+            <p class="edu-detail">Queen Mary's High School and Junior College</p>
+            <p class="edu-meta">2023 &middot; 86.50%</p>
           </div>
         </div>
-        <!-- Project Card 3 -->
-        <div class="col-md-6 col-lg-4" data-reveal data-reveal-delay="200">
-          <div class="project-card">
-            <div class="project-thumb">
-              <i class="bi bi-image"></i>
-              <span class="project-thumb-label">[ADD PROJECT IMAGE]</span>
-            </div>
-            <div class="project-body">
-              <h3 class="project-title">[ADD YOUR INFORMATION: Project Name]</h3>
-              <p class="project-desc">[ADD YOUR INFORMATION: a short description of the project, what it does, and your role in it.]</p>
-              <div class="project-tags">
-                <span class="tag-chip">[Tech]</span>
-                <span class="tag-chip">[Tech]</span>
-                <span class="tag-chip">[Tech]</span>
-              </div>
-              <div class="project-links">
-                <a href="#" class="project-link">Live Demo <i class="bi bi-box-arrow-up-right"></i></a>
-                <a href="#" class="project-link">Source Code <i class="bi bi-github"></i></a>
-              </div>
-            </div>
+        <div class="col-md-4" data-reveal data-reveal-delay="200">
+          <div class="skill-card">
+            <div class="skill-icon"><i class="bi bi-mortarboard"></i></div>
+            <h3 class="skill-cat-title">Secondary School Certificate</h3>
+            <p class="edu-detail">Asadullah Khan School</p>
+            <p class="edu-meta">2021 &middot; 79.80%</p>
           </div>
         </div>
       </div>
@@ -291,8 +351,10 @@
           <h2 class="section-title">Contact Me</h2>
           <div class="title-underline mx-auto"></div>
           <p class="section-subtext mx-auto">
-            [I’m currently open to entry-level opportunities in . 
-            If you’re looking to connect, collaborate, or discuss a potential opportunity, feel free to get in touch.]
+            I'm currently open to entry-level opportunities in Web Development, Software Development,
+            Frontend, Full Stack, Data-related and other technology roles. 
+            If you're looking to connect, collaborate, or discuss a potential opportunity, feel free to
+            get in touch.
           </p>
         </div>
       </div>
@@ -304,26 +366,26 @@
               <div class="contact-info-icon"><i class="bi bi-envelope"></i></div>
               <div>
                 <span class="contact-info-label">Email</span>
-                <p class="contact-info-value">[amnacoder@gmail.com]</p>
+                <p class="contact-info-value"><a href="mailto:amnacoder@gmail.com">amnacoder@gmail.com</a></p>
               </div>
             </div>
             <div class="contact-info-row">
               <div class="contact-info-icon"><i class="bi bi-telephone"></i></div>
               <div>
                 <span class="contact-info-label">Phone</span>
-                <p class="contact-info-value">[9987933915]</p>
+                <p class="contact-info-value"><a href="tel:+919987933915">+91 99879 33915</a></p>
               </div>
             </div>
             <div class="contact-info-row">
               <div class="contact-info-icon"><i class="bi bi-geo-alt"></i></div>
               <div>
                 <span class="contact-info-label">Location</span>
-                <p class="contact-info-value">[Mumbra/Thane/Maharashtra]</p>
+                <p class="contact-info-value">Mumbai, Maharashtra</p>
               </div>
             </div>
             <div class="contact-social">
-              <a href="#" class="social-icon-link" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-              <a href="#" class="social-icon-link" aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/in/aamina-shaikh-244534305" class="social-icon-link" aria-label="Aamina Shaikh on LinkedIn" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/aaminashaikh" class="social-icon-link" aria-label="Aamina Shaikh on GitHub" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
             </div>
           </div>
         </div>
@@ -365,7 +427,7 @@
     <div class="container">
       <div class="row align-items-center gy-3">
         <div class="col-md-4 text-center text-md-start">
-          <img src="assets/images/Main Logo.png" alt="Aamina Shaikh Logo" class="footer-logo" />
+          <img src="assets/images/main-logo.png" alt="Aamina Shaikh logo" class="footer-logo" />
         </div>
         <div class="col-md-4 text-center">
           <ul class="footer-nav">
@@ -373,13 +435,14 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <div class="col-md-4 text-center text-md-end">
           <div class="footer-social">
-            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-            <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/aamina-shaikh-244534305" aria-label="Aamina Shaikh on LinkedIn" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/aaminashaikh" aria-label="Aamina Shaikh on GitHub" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
           </div>
         </div>
       </div>
